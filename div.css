@@ -1,0 +1,55 @@
+.row1,.row2,.row3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.a {
+  height: 150px;
+  width: 150px;
+  background: yellow;
+  border: 2px solid black;
+}
+
+.b {
+  height: 150px;
+  width: 150px;
+  background: yellow;
+  border: 2px solid black;
+}
+
+.c {
+  height: 150px;
+  width: 150px;
+  background: yellow;
+  border: 2px solid black;
+}
+
+.d {
+  height: 150px;
+  width: 950px;
+  margin: 80px;
+  background: green;
+  border: 2px solid black;
+}
+
+.e {
+  height: 150px;
+  width: 150px;
+  background: red;
+  border: 2px solid black;
+}
+
+.f {
+  height: 150px;
+  width: 150px;
+  background: blue;
+  border: 2px solid black;
+}
+
+.g {
+  height: 150px;
+  width: 150px;
+  background: brown;
+  border: 2px solid black;
+}

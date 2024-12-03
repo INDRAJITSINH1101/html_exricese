@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 0 20px;
+  padding: 20px;
+  /* width: 300px; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  
+  
+}
+
+label {
+  color: #555;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+
+select {
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+button {
+  padding: 15px;
+  border-radius: 10px;
+  border: none;
+  background-color: #4caf50;
+  color: white;
+  width: 100%;
+  font-size: 16px;
+  cursor: pointer;
+}
+.main1{
+  background-image: url(R.jfif);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 800px;
+  width: 300px;
+}
+
+@media screen and (max-width:600px) {
+  body {
+    background: blue;
+    font-size: 14px;
+  }
+
+}
+
+.main2 {
+  text-align: center;
+  justify-content: center;
+  display: flex;
+}
+
+th,td {
+  padding: 6px;
+}
